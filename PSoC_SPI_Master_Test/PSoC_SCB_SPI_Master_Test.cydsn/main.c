@@ -21,13 +21,7 @@ void DACSetVoltage(uint16 value)
 
     Pin_LDAC_Write(1u);  
     SPIM_SpiUartWriteTxData(txDataH);
-    /*
-    while(0u == (SPIM_GetMasterInterruptSource() & SPIM_INTR_MASTER_SPI_DONE))  
-    {  
-        // Wait while Master completes transfer
-    }
-    */
-    SPIM_SpiUartWriteTxData(txDataL);
+    SPIM_SpiUartWriteTxData(txDataL);   // bufferが空くまでblockするので連続出力可
     
     while(0u == (SPIM_GetMasterInterruptSource() & SPIM_INTR_MASTER_SPI_DONE))  
     {  
@@ -38,18 +32,39 @@ void DACSetVoltage(uint16 value)
     Pin_LDAC_Write(0u);
 }  
 
+void DACSetVoltage16bit(uint16 value)
+{
+    // Highバイト(0x30=OUTA/BUFなし/1x/シャットダウンなし)
+    value = (value & ~0xF000) | 0x3000;  
+    
+    Pin_LDAC_Write(1u);
+    
+    SPIM_SpiUartWriteTxData(value);
+    
+    while(0u == (SPIM_GetMasterInterruptSource() & SPIM_INTR_MASTER_SPI_DONE))  
+    {  
+        /* Wait while Master completes transfer */  
+    }
+    /* Clear interrupt source after transfer completion */  
+    SPIM_ClearMasterInterruptSource(SPIM_INTR_MASTER_SPI_DONE);
+    
+    Pin_LDAC_Write(0u);
+}
+
 int main()
 {    
     CyGlobalIntEnable; /* Enable global interrupts. */
 
     SPIM_Start();
     
-    DACSetVoltage(1024);
-
+    uint16 i = 0;
     for(;;)
     {
-        DACSetVoltage(1024);
-        CyDelay(1);
+        DACSetVoltage16bit(i);
+        //DACSetVoltage(i);
+        i += 8;
+        if (i == 4096) 
+            i = 0;
     }
 }
 /* [] END OF FILE */
