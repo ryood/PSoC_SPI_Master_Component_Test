@@ -7,12 +7,12 @@
  * CONFIDENTIAL AND PROPRIETARY INFORMATION
  * WHICH IS THE PROPERTY OF your company.
  *
+ * 2015.10.19 SPIM_ReadTxStatus()でSPIの完了待ち
+ *
  * ========================================
 */
-#include <project.h>
 
-// ERROR CODE
-#define ERR_DAC_CHANNEL_OUT_OF_RANGE 0x01
+#include <project.h>
 
 void DACSetVoltage(uint16 value)
 {
@@ -23,10 +23,13 @@ void DACSetVoltage(uint16 value)
     txDataL = (value & 0x00ff); 
     
     Pin_LDAC_Write(1u);
-    SPIM_1_WriteTxData(txDataH);
-    SPIM_1_WriteTxData(txDataL);
     
-    CyDelayUs(10);
+    SPIM_WriteTxData(txDataH);
+    SPIM_WriteTxData(txDataL);
+    
+    while(0u == (SPIM_ReadTxStatus() & SPIM_STS_SPI_DONE))  {
+         // Wait while Master completes transfer
+    }
         
     Pin_LDAC_Write(0u);
 }
@@ -35,11 +38,11 @@ int main()
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
 
-    SPIM_1_Start();
+    SPIM_Start();
     
     for(;;)
     {
-        DACSetVoltage(512);
+        DACSetVoltage(4095);
         CyDelay(1);
     }
 }

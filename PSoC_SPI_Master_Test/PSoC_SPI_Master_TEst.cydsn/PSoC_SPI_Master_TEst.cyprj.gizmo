@@ -26,8 +26,8 @@
 <dep name=".\Generated_Source\PSoC4\Pin_SCLK_aliases.h" />
 <dep name=".\Generated_Source\PSoC4\Pin_SS.h" />
 <dep name=".\Generated_Source\PSoC4\Pin_SS_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1.h" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_PVT.h" />
 <dep name=".\Generated_Source\PSoC4\core_cm0.h" />
 <dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
 <dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
@@ -56,8 +56,8 @@
 <file name=".\Generated_Source\PSoC4\Pin_SCLK_aliases.h" />
 <file name=".\Generated_Source\PSoC4\Pin_SS.h" />
 <file name=".\Generated_Source\PSoC4\Pin_SS_aliases.h" />
-<file name=".\Generated_Source\PSoC4\SPIM_1.h" />
-<file name=".\Generated_Source\PSoC4\SPIM_1_PVT.h" />
+<file name=".\Generated_Source\PSoC4\SPIM.h" />
+<file name=".\Generated_Source\PSoC4\SPIM_PVT.h" />
 <file name=".\Generated_Source\PSoC4\core_cm0.h" />
 <file name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
 <file name=".\Generated_Source\PSoC4\core_cmFunc.h" />
@@ -170,40 +170,40 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Pin_Sclk.c" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\SPIM_1.o">
+<file name=".\CortexM0\ARM_GCC_493\Debug\SPIM.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1.c" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1.h" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM.c" />
+<dep name=".\Generated_Source\PSoC4\SPIM.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_PVT.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC4\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
-<file name=".\Generated_Source\PSoC4\SPIM_1.c" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\SPIM_1_INT.o">
+<file name=".\Generated_Source\PSoC4\SPIM.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\SPIM_INT.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1.h" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1_INT.c" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_INT.c" />
+<dep name=".\Generated_Source\PSoC4\SPIM_PVT.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC4\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 <dep name=".\cyapicallbacks.h" />
 </file>
-<file name=".\Generated_Source\PSoC4\SPIM_1_INT.c" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\SPIM_1_PM.o">
+<file name=".\Generated_Source\PSoC4\SPIM_INT.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\SPIM_PM.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1.h" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1_PM.c" />
-<dep name=".\Generated_Source\PSoC4\SPIM_1_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_PM.c" />
+<dep name=".\Generated_Source\PSoC4\SPIM_PVT.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC4\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
-<file name=".\Generated_Source\PSoC4\SPIM_1_PM.c" />
+<file name=".\Generated_Source\PSoC4\SPIM_PM.c" />
 <file name=".\CortexM0\ARM_GCC_493\Debug\cyPm.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -246,6 +246,42 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name=".\Generated_Source\PSoC4\SPIM_1.h" />
+<file name=".\Generated_Source\PSoC4\SPIM_1_PVT.h" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\SPIM_1.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_1.c" />
+<dep name=".\Generated_Source\PSoC4\SPIM_1.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_1_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\SPIM_1.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\SPIM_1_INT.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_1.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_1_INT.c" />
+<dep name=".\Generated_Source\PSoC4\SPIM_1_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\SPIM_1_INT.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\SPIM_1_PM.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_1.h" />
+<dep name=".\Generated_Source\PSoC4\SPIM_1_PM.c" />
+<dep name=".\Generated_Source\PSoC4\SPIM_1_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\SPIM_1_PM.c" />
 <file name=".\Generated_Source\PSoC4\SPI_1.h" />
 <file name=".\Generated_Source\PSoC4\SPI_1_BOOT.h" />
 <file name=".\Generated_Source\PSoC4\SPI_1_PINS.h" />
@@ -465,9 +501,6 @@
 <dep name=".\CortexM0\ARM_GCC_493\Debug\main.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\cyfitter_cfg.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\cymetadata.o" />
-<dep name=".\CortexM0\ARM_GCC_493\Debug\SPIM_1.o" />
-<dep name=".\CortexM0\ARM_GCC_493\Debug\SPIM_1_PM.o" />
-<dep name=".\CortexM0\ARM_GCC_493\Debug\SPIM_1_INT.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Pin_Miso.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Clock_SPIM.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Pin_Mosi.o" />
@@ -481,6 +514,9 @@
 <dep name=".\CortexM0\ARM_GCC_493\Debug\CyLFClk.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Pin_LDAC.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\Pin_SS.o" />
+<dep name=".\CortexM0\ARM_GCC_493\Debug\SPIM.o" />
+<dep name=".\CortexM0\ARM_GCC_493\Debug\SPIM_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_493\Debug\SPIM_INT.o" />
 <dep name=".\CortexM0\ARM_GCC_493\Debug\PSoC_SPI_Master_TEst.a" />
 <dep name="${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_493\Debug\CyComponentLibrary.a" />
 </file>
@@ -525,9 +561,13 @@
 <name_val_pair name=".\Generated_Source\PSoC4\SPI_1_mosi_m.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
 <name_val_pair name=".\Generated_Source\PSoC4\SPI_1_ss0_m.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
 <name_val_pair name=".\Generated_Source\PSoC4\Pin_SS.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name="D:\Users\gizmo\Desktop\MCP4922 PSoC\PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst.cydsn\CortexM0\ARM_GCC_493\Debug\PSoC_SPI_Master_TEst.hex" v="-mcpu=cortex-m0 -mthumb -g -ffunction-sections -Og -L Generated_Source\PSoC4 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPIM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPIM_PM.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
+<name_val_pair name=".\Generated_Source\PSoC4\SPIM_INT.c" v="-mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -Og -ffat-lto-objects" />
 </name>
 </genericCmdLineData>
-<codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\gizmo\AppData\Local\Cypress Semiconductor\PSoC Creator\3.3&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p D:\Users\gizmo\Documents\PSoC\PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst.cydsn\PSoC_SPI_Master_TEst.cyprj -d CY8C4245AXI-483 -s D:\Users\gizmo\Documents\PSoC\PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
+<codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\gizmo\AppData\Local\Cypress Semiconductor\PSoC Creator\3.3&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -p &quot;D:\Users\gizmo\Desktop\MCP4922 PSoC\PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst.cydsn\PSoC_SPI_Master_TEst.cyprj&quot; -d CY8C4245AXI-483 -s &quot;D:\Users\gizmo\Desktop\MCP4922 PSoC\PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst.cydsn\Generated_Source\PSoC4&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
 </CyGuid_b0374e30-ce3a-47f2-ad85-821643292c68>
 </dataGuid>
 <dataGuid v="597c5b74-0c46-4204-8b7f-96f3570671dc">
@@ -542,7 +582,7 @@
 <v>Off-Chip</v>
 </tree_states_tab_names>
 <tree_states>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Cypress Component Catalog">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Cypress Component Catalog\System\Interrupt [v1.70]">
 <ExpandedNodeIds>
 <v>Cypress Component Catalog</v>
 <v>Cypress Component Catalog\Communications</v>
@@ -551,7 +591,6 @@
 <v>Cypress Component Catalog\System</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>Cypress Component Catalog\Analog</v>
 <v>Cypress Component Catalog\CapSense</v>
 <v>Cypress Component Catalog\Communications</v>
 <v>Cypress Component Catalog\Communications\I2C</v>
@@ -588,6 +627,7 @@
 <v>Cypress Component Catalog\System\ILO Trim [v2.0]</v>
 <v>Cypress Component Catalog\System\Interrupt [v1.70]</v>
 <v>Cypress Component Catalog\System\Real-time clock (RTC) [v1.0]</v>
+<v>Cypress Component Catalog\Thermal Management</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -961,6 +1001,11 @@
 <v>.\Generated_Source\PSoC4\Pin_SS.c</v>
 <v>.\Generated_Source\PSoC4\Pin_SS.h</v>
 <v>.\Generated_Source\PSoC4\Pin_SS_aliases.h</v>
+<v>.\Generated_Source\PSoC4\SPIM.c</v>
+<v>.\Generated_Source\PSoC4\SPIM.h</v>
+<v>.\Generated_Source\PSoC4\SPIM_PM.c</v>
+<v>.\Generated_Source\PSoC4\SPIM_INT.c</v>
+<v>.\Generated_Source\PSoC4\SPIM_PVT.h</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
@@ -970,14 +1015,14 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif</v>
 </warp_dep>
-<deps_time v="130896918521286943" />
+<deps_time v="130896954947719318" />
 <top_block v="TopDesign" />
 <last_generation v="0" />
 </CyGuid_925cc1e1-309e-4e08-b0a1-09a83c35b157>
 </dataGuid>
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
-<deps_time v="130896935383418778" />
+<deps_time v="130896957928986230" />
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
 </userData>

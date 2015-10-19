@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\cyPm.c">
 <ExpandedNodeIds>
 <v>PSoC_SPI_Master_Test</v>
 <v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\TopDesign</v>
@@ -151,12 +151,12 @@
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SS\Pin_SS.c</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SS\Pin_SS.h</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SS\Pin_SS_aliases.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM_1</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM_1\SPIM_1.c</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM_1\SPIM_1.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM_1\SPIM_1_INT.c</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM_1\SPIM_1_PM.c</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM_1\SPIM_1_PVT.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM_INT.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM_PM.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM_PVT.h</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cycodeshareimport.ld</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cycodeshareimport.scat</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cydevice_trm.h</v>
@@ -174,37 +174,6 @@
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\project.h</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>PSoC_SPI_Master_Test</v>
-<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\TopDesign</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\PSoC_SPI_Master_TEst.cydwr</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Header Files</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Header Files\cyapicallbacks.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Source Files</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Source Files\main.c</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Clock_SPIM</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Clock_SPIM\Clock_SPIM.c</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Clock_SPIM\Clock_SPIM.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\CyLib.h</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\cypins.h</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\cyPm.c</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
@@ -222,6 +191,37 @@
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_MISO\Pin_Miso_aliases.h</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_MOSI</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_MOSI\Pin_Mosi.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_MOSI\Pin_Mosi.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_MOSI\Pin_Mosi_aliases.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SCLK</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SCLK\Pin_Sclk.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SCLK\Pin_Sclk.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SCLK\Pin_Sclk_aliases.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SS</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SS\Pin_SS.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SS\Pin_SS.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\Pin_SS\Pin_SS_aliases.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM_INT.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM_PM.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\SPIM\SPIM_PVT.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cyfitter.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\cymetadata.c</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\Generated_Source\PSoC4\project.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -300,9 +300,9 @@
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Mosi.lst</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_Sclk.lst</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_SS.lst</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_1.lst</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_1_INT.lst</v>
-<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_1_PM.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_INT.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_PM.lst</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\PSoC_SPI_Master_TEst.elf</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\PSoC_SPI_Master_TEst.hex</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\PSoC_SPI_Master_TEst.map</v>
@@ -313,9 +313,52 @@
 <VisibleNodeIds>
 <v>PSoC_SPI_Master_Test</v>
 <v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\Pin_LDAC.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_BOOT.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_mosi_m.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_PM.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_SCBCLK.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_sclk_m.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_SPI.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_SPI_BOOT.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_SPI_UART.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\Listing Files\SPIM_ss0_m.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\PSoC_SCB_SPI_Master_Test.elf</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\PSoC_SCB_SPI_Master_Test.hex</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\CortexM0\ARM_GCC_493\Debug\PSoC_SCB_SPI_Master_Test.map</v>
+<v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\PSoC_SCB_SPI_Master_Test.gpdsc</v>
 <v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\PSoC_SCB_SPI_Master_Test.rpt</v>
 <v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test\PSoC_SCB_SPI_Master_Test_timing.html</v>
 <v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\Clock_SPIM.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst\CortexM0\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -323,7 +366,7 @@
 <v>Datasheet</v>
 </TreeKeysV2>
 <TreeStatesV2>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC_SPI_Master_Test\PSoC_SPI_Master_TEst">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC_SPI_Master_Test">
 <ExpandedNodeIds>
 <v>PSoC_SPI_Master_Test</v>
 <v>PSoC_SPI_Master_Test\PSoC_SCB_SPI_Master_Test</v>

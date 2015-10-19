@@ -6,7 +6,7 @@
   <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Pin_SCLK" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Pin_MISO" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SPIM_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+  <block name="SPIM" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="VirtualMux_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="VirtualMux_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
